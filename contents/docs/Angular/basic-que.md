@@ -1,10 +1,10 @@
 ---
 title: Basic
 root: "/docs"
-parents: ["Javascript"]
+parents: ["Angular"]
 ---
 <h1 align="center">
-  Javascript Questions Answers
+  Angular
 </h1>
 
 #### 1. What are undeclared and undefined variables?
