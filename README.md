@@ -1,37 +1,25 @@
-# Gatsby Markdown Starter
+# Javascript Question Answers
 
 Boilerplate for markdown-based website (Documentation, Blog, etc.).  Based on [gatsby-default-starter](https://github.com/gatsbyjs/gatsby-starter-default).
 
-[live demo](https://cvluca.github.io/gatsby-starter-markdown)
+[Visit](https://cvluca.github.io/gatsby-starter-markdown)
 
-## Features
-* Responsive Web Design
-* Sidebar
-* Anchor
+## Javascript
+* Basic
+* Important
 
-## TODO
-* Footer
-* Optional Sidebar
-* Optional Anchor
-* Demo refresh bug
-* Sidebar items order
-* Search Funtionality
-* Responsive menuitems
-* More examples
+## Angular
+* Basic
 
-## Plugins
-* gatsby-image
-* gatsby-plugin-manifest
-* gatsby-plugin-offline
-* gatsby-plugin-react-helmet
-* gatsby-plugin-sharp
-* gatsby-remark-images
-* gatsby-remark-autolink-headers
-* gatsby-remark-katex
-* gatsby-source-filesystem
-* gatsby-transformer-json
-* gatsby-transformer-remark
-* gatsby-transformer-sharp
+## Typescript
+* Basic
+
+## Html5
+* Basic
+
+## Css3
+* Basic
+
 
 ## Quick Start
 
@@ -55,4 +43,4 @@ Boilerplate for markdown-based website (Documentation, Blog, etc.).  Based on [g
 
     Your site is now running at `http://localhost:8000`!
     
-    *Note: You'll also see a second link: `http://localhost:8000/___graphql`. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql).*
+    *Note: Please contribute here to add questions asked you at the interview.*
