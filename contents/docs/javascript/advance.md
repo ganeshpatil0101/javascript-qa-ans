@@ -118,3 +118,12 @@ stepBy5.increment();stepBy5.increment();stepBy5.increment();
 stepBy5.decrement();
 console.log(stepBy5.getValue()); //10
 ```` 
+#### 8. Javascript files with asych vs defer
+* Script with async attribute are ececuted asycronously. This means the script is executed as soon as its downloaded, without blocking the browser. this is default behaviour.
+````javascript
+<script type="text/javascript" src="path/script.js" async > </script>
+````
+* Defer - The only difference is that script will executed only after entire document has been loaded.
+````javascript
+<script type="text/javascript" src="path/script.js" defer > </script>
+````

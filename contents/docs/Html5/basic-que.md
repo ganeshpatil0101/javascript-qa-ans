@@ -15,3 +15,14 @@ The execution is top down and single threaded javascript may look multi-threaded
 var lbl = document.createElement('label');
 var lbl2 = lbl.cloneNode(true);
 ````
+
+#### 3. How can you generate public key in html
+Html has a keygen element that facilited genration of the key and submission via a form.
+````javascript
+<keygen name="keyname" challenge="challengestring" keytype="type" key-params="pqg-param" >
+````
+
+#### 4. Self closing tags
+P , li, td, tr, th, html, body these are the tag where don't have to provide end tag. 
+
+
