@@ -1,7 +1,7 @@
 ---
 title: Basic
 root: "/docs"
-parents: ["Javascript"]
+parents: ["javascript"]
 ---
 <h1 align="center">
   Javascript Questions Answers

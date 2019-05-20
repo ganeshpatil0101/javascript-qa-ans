@@ -1,7 +1,7 @@
 ---
 title: Advance
 root: "/docs"
-parents: ["Javascript"]
+parents: ["javascript"]
 ---
 <h1 align="center">
   Advance javascript

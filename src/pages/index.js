@@ -13,7 +13,7 @@ const IndexPage = () => {
             Javascript Questions Answers
           </p>
           <h2>
-          <Link to="docs/Javascript/basic-que">Javascript</Link>
+          <Link to="docs/javascript/basic-que">Javascript</Link>
            | Angular | Typescript | HTML5 | CSS3 </h2>
           <br/>
           {/* <Link to="/docs/get-started/introduction">
