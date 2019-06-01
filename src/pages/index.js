@@ -13,8 +13,11 @@ const IndexPage = () => {
             Javascript Questions Answers
           </p>
           <h2>
-          <Link to="docs/javascript/basic-que">Javascript</Link>
-           | Angular | Typescript | HTML5 | CSS3 </h2>
+          <Link to="docs/javascript/basic-que">Javascript</Link> | 
+          <Link to="docs/Angular/basic-que"> Angular</Link> | 
+          <Link to="docs/Typescript/basic"> Typescript</Link> | 
+          <Link to="docs/Html5/basic-que"> HTML5</Link> | 
+           CSS3 </h2>
           <br/>
           {/* <Link to="/docs/get-started/introduction">
             <Button type="primary" size="large" style={{marginRight: 10}}>Get Started</Button>
