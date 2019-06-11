@@ -1,8 +1,10 @@
 # Javascript Question Answers
 
-Boilerplate for markdown-based website (Documentation, Blog, etc.).  Based on [gatsby-default-starter](https://github.com/gatsbyjs/gatsby-starter-default).
+This are all questions asked during interivews. All of them are very useful. Please read all and contribute here.
 
-[Visit](https://cvluca.github.io/gatsby-starter-markdown)
+
+
+[Live](https://javascript-qa-ans.netlify.com)
 
 ## Javascript
 * Basic
