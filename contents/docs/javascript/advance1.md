@@ -52,3 +52,43 @@ JavaScript has a single call stack in which it keeps track of what function weâ€
  | printSquare | 3rd execute|
  | main | |
  WIP
+ 
+ #### 3. Javascript Snippets
+ ````javascript
+ var a = 10;
+function foo() {
+    console.log(a); // ??
+    var a = 20;
+}
+foo(); // undefined because of javascript hoisting if there let instead of var then "ReferenceError: a is not defined"
+//------------------------------------------------
+var array = [];
+for(var i = 0; i <3; i++) {
+ array.push(() => i);
+}
+var newArray = array.map(el => el());
+console.log(newArray); // [3, 3, 3] to resolve this need to you clousure of let 
+//------------------------------------------------
+function foo() {
+  setTimeout(foo, 0); // will there by any stack overflow error?
+};
+// no.. setTimeout is aync function function will add in stack
+//-----------------------------------------------
+var obj = { x: 1, y: 2, z: 3 };
+[...obj]; // TypeError
+// ... spread operator will work on iterator like arr.. we have to make object as iterator then we can use it
+//-----------------------------------------------
+var obj = { a: 1, b: 2 };
+Object.setPrototypeOf(obj, {c: 3});
+Object.defineProperty(obj, 'd', { value: 4, enumerable: false });
+
+// what properties will be printed when we run the for-in loop?
+for(let prop in obj) {
+    console.log(prop);
+}
+// a, b, c -- d will not include because of enumrable false
+//------------------------------------------------------------
+
+
+
+ ````
