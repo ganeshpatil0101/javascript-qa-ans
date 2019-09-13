@@ -92,3 +92,24 @@ for(let prop in obj) {
 
 
  ````
+ #### 4. Javascript Inheritance with arguments
+ ````
+ function Human(fname, lname){
+  this.fname = fname;
+  this.lname = lname;
+  this.getFname = function(){return this.fname;}
+  this.getLname = function(){return this.lname;}
+}
+function Employee(fname, lname, country) {
+  Human.call(this, fname, lname);
+  this.country = country;
+  this.getCountery = function(){return this.country;}
+}
+Employee.prototype = Object.create(Human);
+Employee.prototype.constructor = Employee;
+let e = new Employee("Ganesh", "Patil", "India");
+console.log(e.getFname()); // Ganesh
+console.log(e.getLname()); // Patil
+console.log(e.getCountery()); //India
+
+ ````
